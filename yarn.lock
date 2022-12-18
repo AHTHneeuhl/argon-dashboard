@@ -1264,6 +1264,13 @@
   dependencies:
     "@chakra-ui/shared-utils" "2.0.3"
 
+"@chakra-ui/icons@^2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.14.tgz#8ac5157222a62964dc7ec19bc21a26697f8320b2"
+  integrity sha512-ZHjZ+ekDoW27MTDKqmKasBDEeSJB+dZXn2GubCPLVIzzXdL54TfwMrKOzLBJ2Q68YqFr7+OBbhlsLvKUKPSreA==
+  dependencies:
+    "@chakra-ui/icon" "3.0.13"
+
 "@chakra-ui/image@2.0.12":
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-2.0.12.tgz#e90b1d2a5f87fff90b1ef86ca75bfe6b44ac545d"
@@ -2495,6 +2502,11 @@
   version "2.11.6"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
+
+"@remix-run/router@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.1.0.tgz#b48db8148c8a888e50580a8152b6f68161c49406"
+  integrity sha512-rGl+jH/7x1KBCQScz9p54p0dtPLNeKGb3e0wD2H5/oZj41bwQUnXdzbj2TbUAFhvD7cp9EyEQA4dEgpUFa1O7Q==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -5637,6 +5649,11 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+github-buttons@^2.22.0:
+  version "2.22.1"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.22.1.tgz#1221aef6dee885665c81b9b3e913471951790ec1"
+  integrity sha512-937dpW009lbV8p1gg1SoUvUnJBnfJKYU6CEJcsdoLnBzI4YP7Y8oT/M0O7WTQwfErTYLCG9t0W1huaexSLx7yA==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
@@ -8520,6 +8537,18 @@ react-focus-lock@^2.9.1:
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
 
+react-github-btn@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.4.0.tgz#92654107e92658e60dd977c7a92b212f806da78d"
+  integrity sha512-lV4FYClAfjWnBfv0iNlJUGhamDgIq6TayD0kPZED6VzHWdpcHmPfsYOZ/CFwLfPv4Zp+F4m8QKTj0oy2HjiGXg==
+  dependencies:
+    github-buttons "^2.22.0"
+
+react-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
+  integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
+
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -8558,6 +8587,21 @@ react-remove-scroll@^2.5.4:
     tslib "^2.1.0"
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
+
+react-router-dom@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.5.0.tgz#3970bdcaa7c710a6e0b478a833ba0b4b8ae61a6f"
+  integrity sha512-/XzRc5fq80gW1ctiIGilyKFZC/j4kfe75uivMsTChFbkvrK4ZrF3P3cGIc1f/SSkQ4JiJozPrf+AwUHHWVehVg==
+  dependencies:
+    "@remix-run/router" "1.1.0"
+    react-router "6.5.0"
+
+react-router@6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.5.0.tgz#b53f15543a60750c925609d2e38037ac5aed6dd3"
+  integrity sha512-fqqUSU0NC0tSX0sZbyuxzuAzvGqbjiZItBQnyicWlOUmzhAU8YuLgRbaCL2hf3sJdtRy4LP/WBrWtARkMvdGPQ==
+  dependencies:
+    "@remix-run/router" "1.1.0"
 
 react-scripts@5.0.1:
   version "5.0.1"
